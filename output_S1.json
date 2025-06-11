@@ -1,0 +1,153 @@
+[
+    {
+        "label": "text suitable for: children",
+        "target_audience": "children",
+        "metrics": {
+            "GER": 0.021,
+            "Perplexity": 12.2,
+            "Cosine Similarity": 0.6951,
+            "Flesch-Kincaid": 90.0,
+            "Gunning Fog Index": 4.1,
+            "ADD": 1.8,
+            "PTD": 3.3,
+            "TTR": 0.534,
+            "Lexical Density": 0.423,
+            "Sentiment": 0.294
+        },
+        "quality_score": 0.99,
+        "quality_issues": [
+            "Cosine Similarity is too low (value: 0.6951, ideal: above 0.7)"
+        ],
+        "quality_assessment": "The text has good overall quality.",
+        "suitability_score": 0.98,
+        "suitability_issues": [
+            "TTR is too high for children (value: 0.534, ideal: 0.2-0.5)"
+        ],
+        "suitability_assessment": "The text is well-suited for the children audience."
+    },
+    {
+        "label": "text suitable for: teenagers",
+        "target_audience": "teenagers",
+        "metrics": {
+            "GER": 0.00503,
+            "Perplexity": 29.2,
+            "Cosine Similarity": 0.6814,
+            "Flesch-Kincaid": 60.0,
+            "Gunning Fog Index": 13.0,
+            "ADD": 2.57,
+            "PTD": 4.6,
+            "TTR": 0.6,
+            "Lexical Density": 0.502,
+            "Sentiment": 0.133
+        },
+        "quality_score": 0.97,
+        "quality_issues": [
+            "Cosine Similarity is too low (value: 0.6814, ideal: above 0.7)"
+        ],
+        "quality_assessment": "The text has good overall quality.",
+        "suitability_score": 0.96,
+        "suitability_issues": [
+            "Gunning Fog Index is too high for teenagers (value: 13.0, ideal: 7-12)",
+            "ADD is too high for teenagers (value: 2.57, ideal: 1.5-2.5)"
+        ],
+        "suitability_assessment": "The text is well-suited for the teenagers audience."
+    },
+    {
+        "label": "text suitable for: adults with basic or secondary education",
+        "target_audience": "adults with basic or secondary education",
+        "metrics": {
+            "GER": 0.0493,
+            "Perplexity": 35.0,
+            "Cosine Similarity": 0.6639,
+            "Flesch-Kincaid": 50.0,
+            "Gunning Fog Index": 12.0,
+            "ADD": 2.45,
+            "PTD": 5.8,
+            "TTR": 0.657,
+            "Lexical Density": 0.517,
+            "Sentiment": -0.033
+        },
+        "quality_score": 0.94,
+        "quality_issues": [
+            "Cosine Similarity is too low (value: 0.6639, ideal: above 0.7)"
+        ],
+        "quality_assessment": "The text has good overall quality.",
+        "suitability_score": 1.0,
+        "suitability_issues": [],
+        "suitability_assessment": "The text is well-suited for the adults with basic or secondary education audience."
+    },
+    {
+        "label": "text suitable for: adults with higher education",
+        "target_audience": "adults with higher education",
+        "metrics": {
+            "GER": 0.00498,
+            "Perplexity": 28.1,
+            "Cosine Similarity": 0.7729,
+            "Flesch-Kincaid": 20.0,
+            "Gunning Fog Index": 18.0,
+            "ADD": 3.0,
+            "PTD": 6.2,
+            "TTR": 0.598,
+            "Lexical Density": 0.519,
+            "Sentiment": 0.16
+        },
+        "quality_score": 1.0,
+        "quality_issues": [],
+        "quality_assessment": "The text has good overall quality.",
+        "suitability_score": 1.0,
+        "suitability_issues": [],
+        "suitability_assessment": "The text is well-suited for the adults with higher education audience."
+    },
+    {
+        "label": "text suitable for: adults learning language",
+        "target_audience": "adults learning language",
+        "metrics": {
+            "GER": 0,
+            "Perplexity": 18.3,
+            "Cosine Similarity": 0.6888,
+            "Flesch-Kincaid": 80.0,
+            "Gunning Fog Index": 6.2,
+            "ADD": 2.26,
+            "PTD": 4.0,
+            "TTR": 0.577,
+            "Lexical Density": 0.485,
+            "Sentiment": -0.0425
+        },
+        "quality_score": 0.98,
+        "quality_issues": [
+            "Cosine Similarity is too low (value: 0.6888, ideal: above 0.7)"
+        ],
+        "quality_assessment": "The text has good overall quality.",
+        "suitability_score": 0.99,
+        "suitability_issues": [
+            "Sentiment is too low for adults learning language (value: -0.0425, ideal: 0-1)"
+        ],
+        "suitability_assessment": "The text is well-suited for the adults learning language audience."
+    },
+    {
+        "label": "text suitable for: seniors",
+        "target_audience": "seniors",
+        "metrics": {
+            "GER": 0.0189,
+            "Perplexity": 26.9,
+            "Cosine Similarity": 0.6454,
+            "Flesch-Kincaid": 70.0,
+            "Gunning Fog Index": 9.4,
+            "ADD": 2.85,
+            "PTD": 3.5,
+            "TTR": 0.589,
+            "Lexical Density": 0.494,
+            "Sentiment": 0.2
+        },
+        "quality_score": 0.91,
+        "quality_issues": [
+            "Cosine Similarity is too low (value: 0.6454, ideal: above 0.7)"
+        ],
+        "quality_assessment": "The text has good overall quality.",
+        "suitability_score": 0.97,
+        "suitability_issues": [
+            "Gunning Fog Index is too low for seniors (value: 9.4, ideal: 10-13)"
+        ],
+        "suitability_assessment": "The text is well-suited for the seniors audience."
+    }
+]

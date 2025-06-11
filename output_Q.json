@@ -1,0 +1,200 @@
+[
+    {
+        "label": "good text 1",
+        "metrics": {
+            "GER": 0.00347,
+            "Perplexity": 32.6,
+            "Cosine Similarity": 0.6567,
+            "Flesch-Kincaid": 50.0,
+            "Gunning Fog Index": 13.0,
+            "ADD": 2.4,
+            "PTD": 5.6,
+            "TTR": 0.541,
+            "Lexical Density": 0.541,
+            "Sentiment": 0.248
+        },
+        "quality_score": 0.93,
+        "quality_issues": [
+            "Cosine Similarity is too low (value: 0.6567, ideal: above 0.7)"
+        ],
+        "quality_assessment": "The text has good overall quality."
+    },
+    {
+        "label": "good text 2",
+        "metrics": {
+            "GER": 0.0274,
+            "Perplexity": 25.8,
+            "Cosine Similarity": 0.6686,
+            "Flesch-Kincaid": 60.0,
+            "Gunning Fog Index": 11.0,
+            "ADD": 2.94,
+            "PTD": 4.9,
+            "TTR": 0.517,
+            "Lexical Density": 0.514,
+            "Sentiment": 0.138
+        },
+        "quality_score": 0.95,
+        "quality_issues": [
+            "Cosine Similarity is too low (value: 0.6686, ideal: above 0.7)"
+        ],
+        "quality_assessment": "The text has good overall quality."
+    },
+    {
+        "label": "half text 1 + half text 2",
+        "metrics": {
+            "GER": 0.00641,
+            "Perplexity": 29.8,
+            "Cosine Similarity": 0.6581,
+            "Flesch-Kincaid": 60.0,
+            "Gunning Fog Index": 12.0,
+            "ADD": 2.69,
+            "PTD": 5.4,
+            "TTR": 0.538,
+            "Lexical Density": 0.49,
+            "Sentiment": 0.289
+        },
+        "quality_score": 0.93,
+        "quality_issues": [
+            "Cosine Similarity is too low (value: 0.6581, ideal: above 0.7)"
+        ],
+        "quality_assessment": "The text has good overall quality."
+    },
+    {
+        "label": "text 1 with sentences cut",
+        "metrics": {
+            "GER": 0.014,
+            "Perplexity": 52.0,
+            "Cosine Similarity": 0.5389,
+            "Flesch-Kincaid": 70.0,
+            "Gunning Fog Index": 8.2,
+            "ADD": 1.88,
+            "PTD": 3.5,
+            "TTR": 0.531,
+            "Lexical Density": 0.502,
+            "Sentiment": 0.267
+        },
+        "quality_score": 0.66,
+        "quality_issues": [
+            "Perplexity is too high (value: 52.0, ideal: below 40)",
+            "Cosine Similarity is too low (value: 0.5389, ideal: above 0.7)"
+        ],
+        "quality_assessment": "The text has significant quality issues that should be addressed."
+    },
+    {
+        "label": "text 1 with gibberish",
+        "metrics": {
+            "GER": 0.443,
+            "Perplexity": 356.0,
+            "Cosine Similarity": 0.7364,
+            "Flesch-Kincaid": 60.0,
+            "Gunning Fog Index": 12.0,
+            "ADD": 2.38,
+            "PTD": 5.0,
+            "TTR": 0.589,
+            "Lexical Density": 0.545,
+            "Sentiment": 0.4
+        },
+        "quality_score": 0.5,
+        "quality_issues": [
+            "GER is too high (value: 0.443, ideal: below 0.05)",
+            "Perplexity is too high (value: 356.0, ideal: below 40)"
+        ],
+        "quality_assessment": "The text has significant quality issues that should be addressed."
+    },
+    {
+        "label": "text with each sentence not related to others",
+        "metrics": {
+            "GER": 0,
+            "Perplexity": 27.9,
+            "Cosine Similarity": 0.5835,
+            "Flesch-Kincaid": 90.0,
+            "Gunning Fog Index": 3.6,
+            "ADD": 1.55,
+            "PTD": 3.2,
+            "TTR": 0.655,
+            "Lexical Density": 0.529,
+            "Sentiment": 0.2
+        },
+        "quality_score": 0.81,
+        "quality_issues": [
+            "Cosine Similarity is too low (value: 0.5835, ideal: above 0.7)"
+        ],
+        "quality_assessment": "The text has moderate quality issues that could be improved."
+    },
+    {
+        "label": "text with many grammatical errors",
+        "metrics": {
+            "GER": 0.105,
+            "Perplexity": 43.9,
+            "Cosine Similarity": 0.6102,
+            "Flesch-Kincaid": 90.0,
+            "Gunning Fog Index": 4.6,
+            "ADD": 1.79,
+            "PTD": 3.1,
+            "TTR": 0.685,
+            "Lexical Density": 0.417,
+            "Sentiment": 0.209
+        },
+        "quality_score": 0.58,
+        "quality_issues": [
+            "GER is too high (value: 0.105, ideal: below 0.05)",
+            "Perplexity is too high (value: 43.9, ideal: below 40)",
+            "Cosine Similarity is too low (value: 0.6102, ideal: above 0.7)"
+        ],
+        "quality_assessment": "The text has significant quality issues that should be addressed."
+    },
+    {
+        "label": "text that does not sound human-like",
+        "metrics": {
+            "GER": 0,
+            "Perplexity": 32.6,
+            "Cosine Similarity": 0.7223,
+            "Flesch-Kincaid": -10.0,
+            "Gunning Fog Index": 27.0,
+            "ADD": 3.15,
+            "PTD": 6.2,
+            "TTR": 0.663,
+            "Lexical Density": 0.558,
+            "Sentiment": 0.0358
+        },
+        "quality_score": 1.0,
+        "quality_issues": [],
+        "quality_assessment": "The text has good overall quality."
+    },
+    {
+        "label": "text with repetitive phrases",
+        "metrics": {
+            "GER": 0,
+            "Perplexity": 8.19,
+            "Cosine Similarity": 0.8358,
+            "Flesch-Kincaid": 90.0,
+            "Gunning Fog Index": 4.5,
+            "ADD": 1.95,
+            "PTD": 3.4,
+            "TTR": 0.43,
+            "Lexical Density": 0.43,
+            "Sentiment": 0.543
+        },
+        "quality_score": 1.0,
+        "quality_issues": [],
+        "quality_assessment": "The text has good overall quality."
+    },
+    {
+        "label": "text with overly complex sentences",
+        "metrics": {
+            "GER": 0,
+            "Perplexity": 18.7,
+            "Cosine Similarity": 0.8865,
+            "Flesch-Kincaid": -30.0,
+            "Gunning Fog Index": 44.0,
+            "ADD": 4.54,
+            "PTD": 11.0,
+            "TTR": 0.632,
+            "Lexical Density": 0.498,
+            "Sentiment": 0.127
+        },
+        "quality_score": 1.0,
+        "quality_issues": [],
+        "quality_assessment": "The text has good overall quality."
+    }
+]

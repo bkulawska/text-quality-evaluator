@@ -1,0 +1,332 @@
+[
+    {
+        "label": "text suitable for: children",
+        "target_audience": "teenagers",
+        "suitability_score": 0.81,
+        "suitability_issues": [
+            "Flesch-Kincaid is too high for teenagers (value: 90.0, ideal: 60-80)",
+            "Gunning Fog Index is too low for teenagers (value: 4.1, ideal: 7-12)"
+        ],
+        "suitability_assessment": "The text is moderately suited for the teenagers audience, some adjustments could be made."
+    },
+    {
+        "label": "text suitable for: children",
+        "target_audience": "adults with basic or secondary education",
+        "suitability_score": 0.62,
+        "suitability_issues": [
+            "Flesch-Kincaid is too high for adults with basic or secondary education (value: 90.0, ideal: 50-70)",
+            "Gunning Fog Index is too low for adults with basic or secondary education (value: 4.1, ideal: 9-13)",
+            "PTD is too low for adults with basic or secondary education (value: 3.3, ideal: 4-6)"
+        ],
+        "suitability_assessment": "The text is not well-suited for the adults with basic or secondary education audience."
+    },
+    {
+        "label": "text suitable for: children",
+        "target_audience": "adults with higher education",
+        "suitability_score": 0.61,
+        "suitability_issues": [
+            "Flesch-Kincaid is too high for adults with higher education (value: 90.0, ideal: 0-50)",
+            "Gunning Fog Index is too low for adults with higher education (value: 4.1, ideal: 13-22)",
+            "PTD is too low for adults with higher education (value: 3.3, ideal: 5-10)",
+            "ADD is too low for adults with higher education (value: 1.8, ideal: 2.5-5)",
+            "Lexical Density is too low for adults with higher education (value: 0.423, ideal: 0.5-1)"
+        ],
+        "suitability_assessment": "The text is not well-suited for the adults with higher education audience."
+    },
+    {
+        "label": "text suitable for: children",
+        "target_audience": "adults learning language",
+        "suitability_score": 1.0,
+        "suitability_issues": [],
+        "suitability_assessment": "The text is well-suited for the adults learning language audience."
+    },
+    {
+        "label": "text suitable for: children",
+        "target_audience": "seniors",
+        "suitability_score": 0.63,
+        "suitability_issues": [
+            "Flesch-Kincaid is too high for seniors (value: 90.0, ideal: 50-70)",
+            "Gunning Fog Index is too low for seniors (value: 4.1, ideal: 10-13)",
+            "ADD is too low for seniors (value: 1.8, ideal: 2-3)"
+        ],
+        "suitability_assessment": "The text is not well-suited for the seniors audience."
+    },
+    {
+        "label": "text suitable for: teenagers",
+        "target_audience": "children",
+        "suitability_score": 0.51,
+        "suitability_issues": [
+            "Flesch-Kincaid is too low for children (value: 60.0, ideal: 80-100)",
+            "Gunning Fog Index is too high for children (value: 13.0, ideal: 1-6)",
+            "PTD is too high for children (value: 4.6, ideal: 2-4)",
+            "ADD is too high for children (value: 2.57, ideal: 1-2)",
+            "Lexical Density is too high for children (value: 0.502, ideal: 0.2-0.5)",
+            "TTR is too high for children (value: 0.6, ideal: 0.2-0.5)",
+            "Sentiment is too low for children (value: 0.133, ideal: 0.2-1)"
+        ],
+        "suitability_assessment": "The text is not well-suited for the children audience."
+    },
+    {
+        "label": "text suitable for: teenagers",
+        "target_audience": "adults with basic or secondary education",
+        "suitability_score": 1.0,
+        "suitability_issues": [],
+        "suitability_assessment": "The text is well-suited for the adults with basic or secondary education audience."
+    },
+    {
+        "label": "text suitable for: teenagers",
+        "target_audience": "adults with higher education",
+        "suitability_score": 0.96,
+        "suitability_issues": [
+            "Flesch-Kincaid is too high for adults with higher education (value: 60.0, ideal: 0-50)",
+            "PTD is too low for adults with higher education (value: 4.6, ideal: 5-10)"
+        ],
+        "suitability_assessment": "The text is well-suited for the adults with higher education audience."
+    },
+    {
+        "label": "text suitable for: teenagers",
+        "target_audience": "adults learning language",
+        "suitability_score": 0.77,
+        "suitability_issues": [
+            "Flesch-Kincaid is too low for adults learning language (value: 60.0, ideal: 70-90)",
+            "Gunning Fog Index is too high for adults learning language (value: 13.0, ideal: 4-9)",
+            "ADD is too high for adults learning language (value: 2.57, ideal: 1.5-2.5)"
+        ],
+        "suitability_assessment": "The text is moderately suited for the adults learning language audience, some adjustments could be made."
+    },
+    {
+        "label": "text suitable for: teenagers",
+        "target_audience": "seniors",
+        "suitability_score": 1.0,
+        "suitability_issues": [],
+        "suitability_assessment": "The text is well-suited for the seniors audience."
+    },
+    {
+        "label": "text suitable for: adults with basic or secondary education",
+        "target_audience": "children",
+        "suitability_score": 0.4,
+        "suitability_issues": [
+            "Flesch-Kincaid is too low for children (value: 50.0, ideal: 80-100)",
+            "Gunning Fog Index is too high for children (value: 12.0, ideal: 1-6)",
+            "PTD is too high for children (value: 5.8, ideal: 2-4)",
+            "ADD is too high for children (value: 2.45, ideal: 1-2)",
+            "Lexical Density is too high for children (value: 0.517, ideal: 0.2-0.5)",
+            "TTR is too high for children (value: 0.657, ideal: 0.2-0.5)",
+            "Sentiment is too low for children (value: -0.033, ideal: 0.2-1)"
+        ],
+        "suitability_assessment": "The text is not well-suited for the children audience."
+    },
+    {
+        "label": "text suitable for: adults with basic or secondary education",
+        "target_audience": "teenagers",
+        "suitability_score": 0.84,
+        "suitability_issues": [
+            "Flesch-Kincaid is too low for teenagers (value: 50.0, ideal: 60-80)",
+            "PTD is too high for teenagers (value: 5.8, ideal: 3-5)",
+            "TTR is too high for teenagers (value: 0.657, ideal: 0.3-0.6)",
+            "Sentiment is too low for teenagers (value: -0.033, ideal: 0-1)"
+        ],
+        "suitability_assessment": "The text is moderately suited for the teenagers audience, some adjustments could be made."
+    },
+    {
+        "label": "text suitable for: adults with basic or secondary education",
+        "target_audience": "adults with higher education",
+        "suitability_score": 0.98,
+        "suitability_issues": [
+            "Gunning Fog Index is too low for adults with higher education (value: 12.0, ideal: 13-22)",
+            "ADD is too low for adults with higher education (value: 2.45, ideal: 2.5-5)"
+        ],
+        "suitability_assessment": "The text is well-suited for the adults with higher education audience."
+    },
+    {
+        "label": "text suitable for: adults with basic or secondary education",
+        "target_audience": "adults learning language",
+        "suitability_score": 0.66,
+        "suitability_issues": [
+            "Flesch-Kincaid is too low for adults learning language (value: 50.0, ideal: 70-90)",
+            "Gunning Fog Index is too high for adults learning language (value: 12.0, ideal: 4-9)",
+            "PTD is too high for adults learning language (value: 5.8, ideal: 2-5)",
+            "TTR is too high for adults learning language (value: 0.657, ideal: 0.3-0.6)",
+            "Sentiment is too low for adults learning language (value: -0.033, ideal: 0-1)"
+        ],
+        "suitability_assessment": "The text is not well-suited for the adults learning language audience."
+    },
+    {
+        "label": "text suitable for: adults with basic or secondary education",
+        "target_audience": "seniors",
+        "suitability_score": 1.0,
+        "suitability_issues": [
+            "Sentiment is too low for seniors (value: -0.033, ideal: 0-1)"
+        ],
+        "suitability_assessment": "The text is well-suited for the seniors audience."
+    },
+    {
+        "label": "text suitable for: adults with higher education",
+        "target_audience": "children",
+        "suitability_score": 0.4,
+        "suitability_issues": [
+            "Flesch-Kincaid is too low for children (value: 20.0, ideal: 80-100)",
+            "Gunning Fog Index is too high for children (value: 18.0, ideal: 1-6)",
+            "PTD is too high for children (value: 6.2, ideal: 2-4)",
+            "ADD is too high for children (value: 3.0, ideal: 1-2)",
+            "Lexical Density is too high for children (value: 0.519, ideal: 0.2-0.5)",
+            "TTR is too high for children (value: 0.598, ideal: 0.2-0.5)",
+            "Sentiment is too low for children (value: 0.16, ideal: 0.2-1)"
+        ],
+        "suitability_assessment": "The text is not well-suited for the children audience."
+    },
+    {
+        "label": "text suitable for: adults with higher education",
+        "target_audience": "teenagers",
+        "suitability_score": 0.56,
+        "suitability_issues": [
+            "Flesch-Kincaid is too low for teenagers (value: 20.0, ideal: 60-80)",
+            "Gunning Fog Index is too high for teenagers (value: 18.0, ideal: 7-12)",
+            "PTD is too high for teenagers (value: 6.2, ideal: 3-5)",
+            "ADD is too high for teenagers (value: 3.0, ideal: 1.5-2.5)"
+        ],
+        "suitability_assessment": "The text is not well-suited for the teenagers audience."
+    },
+    {
+        "label": "text suitable for: adults with higher education",
+        "target_audience": "adults with basic or secondary education",
+        "suitability_score": 0.64,
+        "suitability_issues": [
+            "Flesch-Kincaid is too low for adults with basic or secondary education (value: 20.0, ideal: 50-70)",
+            "Gunning Fog Index is too high for adults with basic or secondary education (value: 18.0, ideal: 9-13)",
+            "PTD is too high for adults with basic or secondary education (value: 6.2, ideal: 4-6)"
+        ],
+        "suitability_assessment": "The text is not well-suited for the adults with basic or secondary education audience."
+    },
+    {
+        "label": "text suitable for: adults with higher education",
+        "target_audience": "adults learning language",
+        "suitability_score": 0.57,
+        "suitability_issues": [
+            "Flesch-Kincaid is too low for adults learning language (value: 20.0, ideal: 70-90)",
+            "Gunning Fog Index is too high for adults learning language (value: 18.0, ideal: 4-9)",
+            "PTD is too high for adults learning language (value: 6.2, ideal: 2-5)",
+            "ADD is too high for adults learning language (value: 3.0, ideal: 1.5-2.5)"
+        ],
+        "suitability_assessment": "The text is not well-suited for the adults learning language audience."
+    },
+    {
+        "label": "text suitable for: adults with higher education",
+        "target_audience": "seniors",
+        "suitability_score": 0.65,
+        "suitability_issues": [
+            "Flesch-Kincaid is too low for seniors (value: 20.0, ideal: 50-70)",
+            "Gunning Fog Index is too high for seniors (value: 18.0, ideal: 10-13)",
+            "PTD is too high for seniors (value: 6.2, ideal: 3-6)"
+        ],
+        "suitability_assessment": "The text is not well-suited for the seniors audience."
+    },
+    {
+        "label": "text suitable for: adults learning language",
+        "target_audience": "children",
+        "suitability_score": 0.89,
+        "suitability_issues": [
+            "Gunning Fog Index is too high for children (value: 6.2, ideal: 1-6)",
+            "ADD is too high for children (value: 2.26, ideal: 1-2)",
+            "TTR is too high for children (value: 0.577, ideal: 0.2-0.5)",
+            "Sentiment is too low for children (value: -0.0425, ideal: 0.2-1)"
+        ],
+        "suitability_assessment": "The text is moderately suited for the children audience, some adjustments could be made."
+    },
+    {
+        "label": "text suitable for: adults learning language",
+        "target_audience": "teenagers",
+        "suitability_score": 0.97,
+        "suitability_issues": [
+            "Gunning Fog Index is too low for teenagers (value: 6.2, ideal: 7-12)",
+            "Sentiment is too low for teenagers (value: -0.0425, ideal: 0-1)"
+        ],
+        "suitability_assessment": "The text is well-suited for the teenagers audience."
+    },
+    {
+        "label": "text suitable for: adults learning language",
+        "target_audience": "adults with basic or secondary education",
+        "suitability_score": 0.79,
+        "suitability_issues": [
+            "Flesch-Kincaid is too high for adults with basic or secondary education (value: 80.0, ideal: 50-70)",
+            "Gunning Fog Index is too low for adults with basic or secondary education (value: 6.2, ideal: 9-13)"
+        ],
+        "suitability_assessment": "The text is moderately suited for the adults with basic or secondary education audience, some adjustments could be made."
+    },
+    {
+        "label": "text suitable for: adults learning language",
+        "target_audience": "adults with higher education",
+        "suitability_score": 0.73,
+        "suitability_issues": [
+            "Flesch-Kincaid is too high for adults with higher education (value: 80.0, ideal: 0-50)",
+            "Gunning Fog Index is too low for adults with higher education (value: 6.2, ideal: 13-22)",
+            "PTD is too low for adults with higher education (value: 4.0, ideal: 5-10)",
+            "ADD is too low for adults with higher education (value: 2.26, ideal: 2.5-5)",
+            "Lexical Density is too low for adults with higher education (value: 0.485, ideal: 0.5-1)"
+        ],
+        "suitability_assessment": "The text is moderately suited for the adults with higher education audience, some adjustments could be made."
+    },
+    {
+        "label": "text suitable for: adults learning language",
+        "target_audience": "seniors",
+        "suitability_score": 0.73,
+        "suitability_issues": [
+            "Flesch-Kincaid is too high for seniors (value: 80.0, ideal: 50-70)",
+            "Gunning Fog Index is too low for seniors (value: 6.2, ideal: 10-13)",
+            "Sentiment is too low for seniors (value: -0.0425, ideal: 0-1)"
+        ],
+        "suitability_assessment": "The text is moderately suited for the seniors audience, some adjustments could be made."
+    },
+    {
+        "label": "text suitable for: seniors",
+        "target_audience": "children",
+        "suitability_score": 0.67,
+        "suitability_issues": [
+            "Flesch-Kincaid is too low for children (value: 70.0, ideal: 80-100)",
+            "Gunning Fog Index is too high for children (value: 9.4, ideal: 1-6)",
+            "ADD is too high for children (value: 2.85, ideal: 1-2)",
+            "TTR is too high for children (value: 0.589, ideal: 0.2-0.5)"
+        ],
+        "suitability_assessment": "The text is not well-suited for the children audience."
+    },
+    {
+        "label": "text suitable for: seniors",
+        "target_audience": "teenagers",
+        "suitability_score": 0.97,
+        "suitability_issues": [
+            "ADD is too high for teenagers (value: 2.85, ideal: 1.5-2.5)"
+        ],
+        "suitability_assessment": "The text is well-suited for the teenagers audience."
+    },
+    {
+        "label": "text suitable for: seniors",
+        "target_audience": "adults with basic or secondary education",
+        "suitability_score": 0.98,
+        "suitability_issues": [
+            "PTD is too low for adults with basic or secondary education (value: 3.5, ideal: 4-6)"
+        ],
+        "suitability_assessment": "The text is well-suited for the adults with basic or secondary education audience."
+    },
+    {
+        "label": "text suitable for: seniors",
+        "target_audience": "adults with higher education",
+        "suitability_score": 0.83,
+        "suitability_issues": [
+            "Flesch-Kincaid is too high for adults with higher education (value: 70.0, ideal: 0-50)",
+            "Gunning Fog Index is too low for adults with higher education (value: 9.4, ideal: 13-22)",
+            "PTD is too low for adults with higher education (value: 3.5, ideal: 5-10)",
+            "Lexical Density is too low for adults with higher education (value: 0.494, ideal: 0.5-1)"
+        ],
+        "suitability_assessment": "The text is moderately suited for the adults with higher education audience, some adjustments could be made."
+    },
+    {
+        "label": "text suitable for: seniors",
+        "target_audience": "adults learning language",
+        "suitability_score": 0.96,
+        "suitability_issues": [
+            "Gunning Fog Index is too high for adults learning language (value: 9.4, ideal: 4-9)",
+            "ADD is too high for adults learning language (value: 2.85, ideal: 1.5-2.5)"
+        ],
+        "suitability_assessment": "The text is well-suited for the adults learning language audience."
+    }
+]
