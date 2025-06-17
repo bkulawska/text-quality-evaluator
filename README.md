@@ -3,6 +3,11 @@
 ## Installation
 
 ```bash
+git clone https://github.com/bkulawska/text-quality-evaluator.git
+cd text-quality-evaluator
+```
+
+```bash
 pip install -r requirements.txt
 ```
 
@@ -29,15 +34,15 @@ print(result)
 
 Evaluates a simple informative text about electric cars for adults with basic education:
 ```bash
-python tool_experiments_Q.py
+python tool_example.py
 ```
 Analyzes a complex literary text (from Shakespeare) for adults with higher education:
 
 ```bash
-python tool_experiments_Q.py
+python tool_example_2.py
 ```
 
-Processes a CSV file with labeled texts, evaluating quality for a specific audience:
+Processes a CSV file with labeled texts, evaluating overall quality:
 ```bash
 python tool_experiments_Q.py
 ```
