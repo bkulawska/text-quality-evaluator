@@ -29,8 +29,8 @@ class TextQualityEvaluator:
         self.perplexity_model = GPT2LMHeadModel.from_pretrained("gpt2")
         self.perplexity_tokenizer = GPT2TokenizerFast.from_pretrained("gpt2")
 
-        self.lcs_model = BertModel.from_pretrained("bert-base-uncased")
-        self.lcs_tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
+        self.cs_model = BertModel.from_pretrained("bert-base-uncased")
+        self.cs_tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 
         self.metrics_sig = {
             'GER': 3,
@@ -152,7 +152,7 @@ class TextQualityEvaluator:
 
         sentences = nltk.sent_tokenize(text)
 
-        embeddings = [get_sentence_embedding(sentence, self.lcs_tokenizer, self.lcs_model) for sentence in sentences]
+        embeddings = [get_sentence_embedding(sentence, self.cs_tokenizer, self.cs_model) for sentence in sentences]
 
         coherence_scores = []
         for i in range(len(embeddings) - 1):
